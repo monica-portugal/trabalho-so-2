@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu11 -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/ossim.dir/ossim.c.o -c /home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/ossim.c",
+  "file": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/ossim.c",
+  "output": "CMakeFiles/ossim.dir/ossim.c.o"
+},
+{
+  "directory": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu11 -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/ossim.dir/queue.c.o -c /home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/queue.c",
+  "file": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/queue.c",
+  "output": "CMakeFiles/ossim.dir/queue.c.o"
+},
+{
+  "directory": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu11 -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/ossim.dir/scheduler.c.o -c /home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/scheduler.c",
+  "file": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/scheduler.c",
+  "output": "CMakeFiles/ossim.dir/scheduler.c.o"
+},
+{
+  "directory": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu11 -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/ossim.dir/virtmem.c.o -c /home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/virtmem.c",
+  "file": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/virtmem.c",
+  "output": "CMakeFiles/ossim.dir/virtmem.c.o"
+},
+{
+  "directory": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu11 -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/application.dir/application.c.o -c /home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/application.c",
+  "file": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/application.c",
+  "output": "CMakeFiles/application.dir/application.c.o"
+},
+{
+  "directory": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug",
+  "command": "/usr/bin/cc   -g -std=gnu11 -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -o CMakeFiles/application.dir/burst_queue.c.o -c /home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/burst_queue.c",
+  "file": "/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/burst_queue.c",
+  "output": "CMakeFiles/application.dir/burst_queue.c.o"
+}
+]

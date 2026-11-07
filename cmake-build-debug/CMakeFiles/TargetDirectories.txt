@@ -1,0 +1,5 @@
+/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug/CMakeFiles/ossim.dir
+/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug/CMakeFiles/application.dir
+/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug/CMakeFiles/archive.dir
+/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aluno/tmp/tmp.erIQqr3wXA/SO2026-T2-codigo-base/cmake-build-debug/CMakeFiles/rebuild_cache.dir

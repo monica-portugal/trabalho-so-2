@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/application.dir/link.d CMakeFiles/application.dir/application.c.o CMakeFiles/application.dir/burst_queue.c.o -o application

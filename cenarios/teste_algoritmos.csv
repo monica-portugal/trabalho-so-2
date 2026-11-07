@@ -1,0 +1,24 @@
+# CENÁRIO DE TESTE PARA PAGINAÇÃO
+# Formato: tempo_cpu_ms, tempo_bloqueio_ms, nice, [lista_de_paginas]
+
+# 1. Encher a memória RAM com 10 páginas (1 a 10).
+# As páginas 1 e 2 são escritas (negativas), vão ficar 'dirty' e terão de ir para o Swap se forem expulsas.
+100,0,0,[-1,-2,3,4,5,6,7,8,9,10]
+
+# 2. Re-aceder às páginas 3, 5, 7 e 9.
+# No LRU, estas passam a ser as "acedidas mais recentemente".
+# As páginas mais antigas passam a ser a 1, 2, 4, 6, 8 e 10.
+50,0,0,[3,5,7,9]
+
+# 3. Forçar faltas de página (Page Faults).
+# Vamos pedir as páginas 11, 12, 13 e 14 (que não estão na RAM).
+# Aqui veremos as diferenças:
+# - O FIFO vai remover as 1, 2, 3 e 4 (as primeiras a entrar).
+# - O LRU vai remover as 1, 2, 4 e 6 (pois a 3 foi acedida no passo anterior).
+100,0,0,[11,-12,13,14]
+
+# 4. Aceder novamente a páginas antigas para forçar "Swap In" (trazer de volta do disco)
+50,0,0,[1,-4,6]
+
+# 5. Mais uns acessos aleatórios para terminar
+100,0,0,[5,10,13,15]

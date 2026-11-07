@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/ossim.dir/link.d CMakeFiles/ossim.dir/ossim.c.o CMakeFiles/ossim.dir/queue.c.o CMakeFiles/ossim.dir/scheduler.c.o CMakeFiles/ossim.dir/virtmem.c.o -o ossim
