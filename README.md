@@ -1,1 +1,0 @@
-# trabalho-so-2
